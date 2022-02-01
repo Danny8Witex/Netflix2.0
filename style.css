@@ -128,6 +128,13 @@ img {
   background: #000;
   color: #fff;
 }
+
+/* Hide content Initially */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
 .tab-1-content-inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
