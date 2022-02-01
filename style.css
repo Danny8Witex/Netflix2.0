@@ -135,6 +135,11 @@ img {
 #tab-3-content {
   display: none;
 }
+
+.show {
+  display: block !important;
+}
+
 .tab-1-content-inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -278,6 +283,10 @@ img {
   font-size: 2rem;
   padding: 1.5rem 2.1rem;
   text-transform: uppercase;
+}
+
+.btn-icon {
+  margin-left: 1rem;
 }
 
 @media (max-width: 960px) {
